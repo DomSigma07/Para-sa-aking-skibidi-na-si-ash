@@ -1,0 +1,94 @@
+.bakg{
+    background-image: url("love\ you\ car.gif");
+    color :rgb(250, 250, 250);
+    text-align: center;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif
+    text-shadow: 2px 2px 8px #1d201e;
+    background-size: 50%;
+    background-repeat:repeat;
+    
+}
+
+div{
+    background-image: url("love\ you\ car.gif");
+    background-size: 10%;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(244, 247, 245);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 22px;
+    background-repeat: repeat;
+    size: 100px;
+}
+
+.slide{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
+  }
+
+
+  .animated_div:active {
+    width: 70px;
+    height: 47px;
+    background: #92B901;
+    color: #ffffff;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+   
+}
+.animated_div:before {
+    width: 70px;
+    height: 47px;
+    background: #92B901;
+    color: #ffffff;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    animation:alternate-reverse 3s 1;
+    -moz-animation:alternate-reverse 3s 1;
+    -webkit-animation:backwards 3s 1;
+    -o-animatio:5s 1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
+
+.animated_div:after {
+    width: 70px;
+    height: 47px;
+    background: #92B901;
+    color: #ffffff;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    animation:alternate-reverse 5s 1;
+    -moz-animation:alternate-reverse 5s 1;
+    -webkit-animation:backwards 5s 1;
+    -o-animatio:5s 1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
